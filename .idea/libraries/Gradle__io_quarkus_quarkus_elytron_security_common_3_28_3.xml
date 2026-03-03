@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: io.quarkus:quarkus-elytron-security-common:3.28.3" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.quarkus" artifactId="quarkus-elytron-security-common" version="3.28.3" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.quarkus/quarkus-elytron-security-common/3.28.3/a904d6faac928cf343415121f575e3ac0df37d45/quarkus-elytron-security-common-3.28.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

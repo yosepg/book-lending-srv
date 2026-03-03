@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: jakarta.resource:jakarta.resource-api:2.1.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="jakarta.resource" artifactId="jakarta.resource-api" version="2.1.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.resource/jakarta.resource-api/2.1.0/d98f0ac826cdc85f80061c21bc061841ac6d374c/jakarta.resource-api-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.resource/jakarta.resource-api/2.1.0/17d612d3c2c71b15982de260a12254faea193fe/jakarta.resource-api-2.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.resource/jakarta.resource-api/2.1.0/30d1810305a2431ca3503621a2100fb9bc77a064/jakarta.resource-api-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

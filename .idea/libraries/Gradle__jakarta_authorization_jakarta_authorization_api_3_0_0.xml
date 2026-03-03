@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: jakarta.authorization:jakarta.authorization-api:3.0.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="jakarta.authorization" artifactId="jakarta.authorization-api" version="3.0.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.authorization/jakarta.authorization-api/3.0.0/3fc9ba2d538e9c7e9df35e5d117e5ee940234494/jakarta.authorization-api-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

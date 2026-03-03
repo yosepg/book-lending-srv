@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:3.19.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.smallrye.reactive" artifactId="smallrye-mutiny-vertx-auth-common" version="3.19.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-auth-common/3.19.2/c615e0702f6b35a1c44f62b9630d90ebe4da1f4e/smallrye-mutiny-vertx-auth-common-3.19.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/smallrye-mutiny-vertx-auth-common/3.19.2/fc0c64fac78d015e1dc722e8a1371be6f3d87895/smallrye-mutiny-vertx-auth-common-3.19.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

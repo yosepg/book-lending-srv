@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.wildfly.security:wildfly-elytron-auth-server:2.6.5.Final" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.wildfly.security" artifactId="wildfly-elytron-auth-server" version="2.6.5.Final" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.wildfly.security/wildfly-elytron-auth-server/2.6.5.Final/7ca5aadc21dff14dab098e2457b67f4bf1d63704/wildfly-elytron-auth-server-2.6.5.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

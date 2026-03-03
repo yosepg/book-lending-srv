@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: io.smallrye.common:smallrye-common-cpu:2.13.9" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.smallrye.common" artifactId="smallrye-common-cpu" version="2.13.9" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.common/smallrye-common-cpu/2.13.9/b9377394edfb1e4fc88b9c2d83825e45f4ca300b/smallrye-common-cpu-2.13.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

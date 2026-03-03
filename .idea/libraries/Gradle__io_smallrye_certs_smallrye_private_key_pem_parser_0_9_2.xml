@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: io.smallrye.certs:smallrye-private-key-pem-parser:0.9.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.smallrye.certs" artifactId="smallrye-private-key-pem-parser" version="0.9.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.certs/smallrye-private-key-pem-parser/0.9.2/fffc0c86069623b021d8d2d222d09db52ae81994/smallrye-private-key-pem-parser-0.9.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.certs/smallrye-private-key-pem-parser/0.9.2/cb665a1eee4f392d97187b7ea033a58addac631b/smallrye-private-key-pem-parser-0.9.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.certs/smallrye-private-key-pem-parser/0.9.2/4ba95df557e643159d302ccc4ae4082046691b65/smallrye-private-key-pem-parser-0.9.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

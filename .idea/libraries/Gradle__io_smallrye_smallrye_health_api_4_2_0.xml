@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.smallrye:smallrye-health-api:4.2.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.smallrye" artifactId="smallrye-health-api" version="4.2.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye/smallrye-health-api/4.2.0/40056062b20c03b045d89e5ced7e2432bbe855b/smallrye-health-api-4.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye/smallrye-health-api/4.2.0/2fd2e82c6cefca9b5bc1610533dafaceef2fb290/smallrye-health-api-4.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

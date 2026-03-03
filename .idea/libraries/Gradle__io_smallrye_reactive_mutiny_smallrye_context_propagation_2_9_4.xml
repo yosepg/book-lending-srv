@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.smallrye.reactive:mutiny-smallrye-context-propagation:2.9.4" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.smallrye.reactive" artifactId="mutiny-smallrye-context-propagation" version="2.9.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/mutiny-smallrye-context-propagation/2.9.4/ecf787d20f572f18405724b4ff448ea62869fa70/mutiny-smallrye-context-propagation-2.9.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.smallrye.reactive/mutiny-smallrye-context-propagation/2.9.4/b8035812f50cebccd022945cc5ccb8753b5cbea8/mutiny-smallrye-context-propagation-2.9.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

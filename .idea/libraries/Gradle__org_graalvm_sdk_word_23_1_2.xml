@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: org.graalvm.sdk:word:23.1.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.graalvm.sdk" artifactId="word" version="23.1.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.graalvm.sdk/word/23.1.2/9dfd386a63750f33e848086317e19a01e9ed7eb8/word-23.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.graalvm.sdk/word/23.1.2/8a8fb0362e71f70c44d1edd5c61793eb9b09cc36/word-23.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.graalvm.sdk/word/23.1.2/2b3a56225f1c99231e336f4e0835ef11e12de0f6/word-23.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
