@@ -1,0 +1,10 @@
+package com.demandlane.dto;
+
+public enum ErrorCode {
+    ENTITY_NOT_FOUND,
+    DUPLICATE_ENTITY,
+    BORROWING_RULE_VIOLATION,
+    ACTIVE_LOAN_CONFLICT,
+    VALIDATION_ERROR,
+    INTERNAL_ERROR
+}
