@@ -5,16 +5,23 @@ REST microservice for managing a small library's book lending operations. Tracks
 Built with [Quarkus 3.28](https://quarkus.io/), Java 17, MySQL 8.
 
 ## Quick start
-Use Docker to spin up MySQL client or install MySQL 8.x standalone
-```bash
-# docker MySQL container
-docker compose up -d
 
-# dev mode (needs Docker for the MySQL container / standalone MySQL port on 3307)
+### Prerequisite
+1. Docker v27 or above
+2. JDK 17 / JRE 17
+3. MySQL 8 standalone (optional)
+
+```bash
+# dev mode — live reload, MySQL via docker
+docker compose up mysql -d
 ./gradlew quarkusDev
 
-# or, bring your own MySQL from docker
-docker compose up -d
+# or, full stack via Docker Compose
+./gradlew clean build
+docker compose up --build -d
+
+# or, MySQL in Docker, run app in standalone jar
+docker compose up mysql -d
 ./gradlew quarkusBuild
 java -jar build/quarkus-app/quarkus-run.jar
 ```
@@ -38,32 +45,32 @@ Everything under `/api/*` requires Basic Auth. Observability endpoints are unaut
 
 ### Books
 
-| Method | Path | Roles | Notes |
-|--------|------|-------|-------|
-| GET | `/api/books` | admin, user | list all |
-| GET | `/api/books/{id}` | admin, user | |
-| POST | `/api/books` | admin | |
-| PUT | `/api/books/{id}` | admin | adjusts available copies proportionally |
-| DELETE | `/api/books/{id}` | admin | blocked while copies are on loan |
+| Method | Path                 | Roles | Notes |
+|--------|----------------------|-------|-------|
+| GET | `/api/v1/books`      | admin, user | list all |
+| GET | `/api/v1/books/{id}` | admin, user | |
+| POST | `/api/v1/books`      | admin | |
+| PUT | `/api/v1/books/{id}` | admin | adjusts available copies proportionally |
+| DELETE | `/api/v1/books/{id}` | admin | blocked while copies are on loan |
 
 ### Members
 
-| Method | Path | Roles |
-|--------|------|-------|
-| GET | `/api/members` | admin |
-| GET | `/api/members/{id}` | admin |
-| POST | `/api/members` | admin |
-| PUT | `/api/members/{id}` | admin |
-| DELETE | `/api/members/{id}` | admin (blocked if member has active loans) |
+| Method | Path                | Roles |
+|--------|---------------------|-------|
+| GET | `/api/v1/members`   | admin |
+| GET | `/api/v1/members/{id}` | admin |
+| POST | `/api/v1/members`      | admin |
+| PUT | `/api/v1/members/{id}` | admin |
+| DELETE | `/api/v1/members/{id}` | admin (blocked if member has active loans) |
 
 ### Loans
 
 | Method | Path | Roles | Notes |
 |--------|------|-------|-------|
-| GET | `/api/loans` | admin | query params: `memberId`, `active` |
-| GET | `/api/loans/{id}` | admin, user | |
-| POST | `/api/loans/borrow` | admin, user | body: `{"bookId": 1, "memberId": 2}` |
-| POST | `/api/loans/{id}/return` | admin, user | no body |
+| GET | `/api/v1/loans` | admin | query params: `memberId`, `active` |
+| GET | `/api/v1/loans/{id}` | admin, user | |
+| POST | `/api/v1/loans/borrow` | admin, user | body: `{"bookId": 1, "memberId": 2}` |
+| POST | `/api/v1/loans/{id}/return` | admin, user | no body |
 
 ### Observability
 

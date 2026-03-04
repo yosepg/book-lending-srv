@@ -78,17 +78,14 @@
 #   accessed directly. (example: "foo.example.com,bar.example.com")
 #
 ###
-FROM registry.access.redhat.com/ubi9/openjdk-25:1.23
-
-ENV LANGUAGE='en_US:en'
-
+FROM eclipse-temurin:17-jre
 
 COPY build/lib/* /deployments/lib/
 COPY build/*-runner.jar /deployments/quarkus-run.jar
 
-EXPOSE 8080
-USER 185
-ENV JAVA_OPTS_APPEND="-Dquarkus.http.host=0.0.0.0 -Djava.util.logging.manager=org.jboss.logmanager.LogManager"
-ENV JAVA_APP_JAR="/deployments/quarkus-run.jar"
-
-ENTRYPOINT [ "/opt/jboss/container/java/run/run-java.sh" ]
+EXPOSE 8088
+WORKDIR /deployments
+ENTRYPOINT ["java", \
+  "-Dquarkus.http.host=0.0.0.0", \
+  "-Djava.util.logging.manager=org.jboss.logmanager.LogManager", \
+  "-jar", "quarkus-run.jar"]
