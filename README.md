@@ -1,4 +1,4 @@
-# book-lending-srv
+# book-lending-service
 
 REST microservice for managing a small library's book lending operations. Tracks books, members, and loans with configurable borrowing rules.
 
